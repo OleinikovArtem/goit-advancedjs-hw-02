@@ -6,7 +6,7 @@
   "homepage": "https://oleinikovartem.github.io/goit-advancedjs-hw-01/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/goit-advancedjs-hw-01/",
     "preview": "vite preview",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d dist"
