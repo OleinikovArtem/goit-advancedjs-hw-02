@@ -12,6 +12,7 @@ export default defineConfig(({ command }) => {
     root: 'src',
     build: {
       sourcemap: true,
+      cssCodeSplit: false,
       rollupOptions: {
         input: glob.sync('./src/*.html'),
         output: {
@@ -44,5 +45,6 @@ export default defineConfig(({ command }) => {
         sort: 'mobile-first',
       }),
     ],
+    base: "/goit-advancedjs-hw-01/"
   };
 });

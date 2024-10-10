@@ -1,3 +1,5 @@
+import '../css/2-form.css';
+
 const formData = {
   email: '',
   message: '',

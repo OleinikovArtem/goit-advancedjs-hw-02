@@ -1,0 +1,14 @@
+
+.feedback-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
